@@ -1,7 +1,7 @@
 <div align="center"> 
 <br>
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/Valik3201/easybank/blob/main/images/logo.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/Valik3201/easybank/blob/main/images/logo-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="https://github.com/Valik3201/easybank/blob/main/images/logo.svg">
   <img alt="easybank logo" src="https://github.com/Valik3201/easybank/blob/main/images/logo.svg" width="400">
 </picture>
