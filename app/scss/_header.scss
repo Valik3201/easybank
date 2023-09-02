@@ -1,4 +1,6 @@
 .header {
+  position: relative;
+  z-index: 1;
   // Humburger Open Styles
 
   &.open {
@@ -72,6 +74,12 @@
       padding: 0.625rem 1.875rem;
       color: $grayishBlue;
       font-size: $font-lg;
+      transition: color 200ms ease-in-out;
+    }
+
+    a:hover,
+    a:focus {
+      color: $darkBlue;
     }
   }
 
@@ -89,7 +97,7 @@
         height: 5px;
         left: 0;
         right: 0;
-        bottom: -30px;
+        bottom: -32px;
         background: linear-gradient(90deg, $limeGreen 0%, $brightCyan 100%);
         opacity: 0;
         transition: opacity 300ms ease-in-out;
