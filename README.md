@@ -57,7 +57,7 @@ I learned how to use Sass mixins to make my styles more modular and reusable. He
 ```scss
 // Breakpoints
 @media (min-width: 64em) {
-  // Your styles for medium screens here
+  // Styles for medium screens here
 }
 
 // 640px, 1024px, 1400px
