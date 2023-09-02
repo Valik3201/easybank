@@ -34,7 +34,7 @@ The challenge was to create a responsive landing page for Easybank, ensuring tha
 
 ### Screenshot
 
-[Desktop Preview](https://github.com/Valik3201/easybank/blob/main/design/desktop-preview.jpg)
+![Desktop Preview](/design/desktop-preview.jpg)
 
 ## My process
 
