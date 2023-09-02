@@ -50,7 +50,7 @@ During this project, I learned several valuable lessons, including:
 - Implementing a mobile-first approach to ensure cross-device compatibility.
 - Enhancing my JavaScript skills for interactive features.
 
-## Mixins
+#### Mixins
 
 I learned how to use Sass mixins to make my styles more modular and reusable. Here's an example of a media query mixin:
 
@@ -76,7 +76,7 @@ $breakpoints-up: (
 
 This allows me to easily apply styles based on different screen sizes without repeating code.
 
-## Global Styles
+#### Global Styles
 
 I discovered the power of global styles to maintain consistency across my project. Here's an example of a global flexbox utility class:
 
