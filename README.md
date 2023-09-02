@@ -121,4 +121,5 @@ These are just a couple of examples of what I learned during this project. Using
 
 ## Author
 
-- Frontend Mentor - [@Valik3201](https://www.frontendmentor.io/profile/Valik3201)
+- GitHub - [Valik3201](https://github.com/Valik3201)
+- Frontend Mentor - [Valik3201](https://www.frontendmentor.io/profile/Valik3201)
