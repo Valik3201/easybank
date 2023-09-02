@@ -1,0 +1,13 @@
+@import "animations";
+@import "globals";
+@import "header";
+@import "mixins";
+@import "variables";
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
