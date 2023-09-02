@@ -2,7 +2,7 @@
   // Humburger Open Styles
 
   &.open {
-    .header__menu {
+    .header__toggle {
       > span:first-child {
         transform: rotate(45deg);
       }
@@ -20,14 +20,16 @@
   .overlay {
     opacity: 0;
     position: fixed;
-    inset: 3.75rem 0 0 0;
+    inset: 0;
     background-image: linear-gradient($darkBlue, transparent);
   }
 
   nav {
     position: relative;
     z-index: 1;
-    padding: 20px 32px 20px 24px;
+    padding-top: 1.13rem;
+    padding-bottom: 1.09rem;
+    background-color: $white;
   }
   &__logo {
     height: 1.25rem; // 20px
@@ -37,8 +39,8 @@
     }
   }
 
-  &__menu {
-    // Mobile Menu
+  &__toggle {
+    // Mobile Menu Toggle
 
     > span {
       display: block;
@@ -47,9 +49,29 @@
       background-color: $darkBlue;
       transform-origin: 2px 1px;
       transition: all 300ms ease-in-out;
+
       &:not(:last-child) {
         margin-bottom: 5px;
       }
+    }
+  }
+
+  &__menu {
+    position: absolute;
+    width: calc(100% - 3rem);
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 1.5rem;
+    gap: 1rem;
+    padding-top: 0.813rem; // 13px
+    padding-bottom: 1.438rem; // 23px
+    background-color: $veryLightGray;
+    border-radius: 0.625rem; // 10px
+
+    a {
+      padding: 0.625rem 1.875rem;
+      color: $grayishBlue;
+      font-size: $font-lg;
     }
   }
 
@@ -78,16 +100,6 @@
           opacity: 1;
         }
       }
-    }
-  }
-
-  &__cta {
-    font-size: $font-sm;
-    color: $white;
-    font-weight: 400;
-    transition: opacity 300ms ease-in-out;
-    &:hover {
-      opacity: 0.8;
     }
   }
 }
