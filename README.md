@@ -2,7 +2,7 @@
 
 This is a solution to the [Easybank landing page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/easybank-landing-page-WaUhkoDN).
 
-[Frontend Mentor](https://github.com/frontendmentorio) challenges are a great way to enhance your coding skills by building real-world projects.
+[Frontend Mentor](https://github.com/frontendmentorio) challenges are a great way to enhance coding skills by building real-world projects.
 
 ## Table of contents
 
