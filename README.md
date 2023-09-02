@@ -88,20 +88,48 @@ $breakpoints-up: (
 
 This allows me to easily apply styles based on different screen sizes without repeating code.
 
-#### Global Styles
+#### Class Abbreviations
 
-I discovered the power of global styles to maintain consistency across my project. Here's an example of a global flexbox utility class:
+This code demonstrates how to use abbreviations for CSS classes to reduce repetitive styling declarations. In this example, `.flex-jc-sb` stands for "flex container with `justify-content: space-between;`."
 
 ```scss
 .flex {
   display: flex;
+
+  // Abbreviation for "justify-content: space-between;"
   &-jc-sb {
     justify-content: space-between;
   }
 }
 ```
 
-This class can be applied to any element to make it a flex container with space-between justification.
+#### Property Abbreviations
+
+This code showcases the use of property abbreviations in class names to simplify the declaration of padding styles. For example, `.container--px` stands for "container with horizontal padding."
+
+```scss
+.container {
+  max-width: 66.5rem;
+  margin: 0 auto;
+
+  // Abbreviations for padding properties
+  &--pall {
+    padding-top: 2.25rem;
+    padding-right: 1.5rem;
+    padding-bottom: 2.25rem;
+    padding-left: 1.5rem;
+  }
+
+  &--px {
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+  }
+
+  &--pt {
+    padding-top: 2.25rem;
+  }
+}
+```
 
 These are just a couple of examples of what I learned during this project. Using mixins and global styles has improved the maintainability of my code and made it easier to create responsive designs.
 
