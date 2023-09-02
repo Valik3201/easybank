@@ -1,4 +1,14 @@
-# Frontend Mentor - Easybank landing page solution
+<div align="center"> 
+<br>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/Valik3201/easybank/blob/main/images/logo.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://github.com/Valik3201/easybank/blob/main/images/logo.svg">
+  <img alt="easybank logo" src="https://github.com/Valik3201/easybank/blob/main/images/logo.svg" width="400">
+</picture>
+  <h1>
+    Frontend Mentor - Easybank Landing Page Solution
+  </h1>
+</div>
 
 This is a solution to the [Easybank landing page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/easybank-landing-page-WaUhkoDN).
 
