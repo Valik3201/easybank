@@ -131,7 +131,7 @@ This code showcases the use of property abbreviations in class names to simplify
 }
 ```
 
-These are just a couple of examples of what I learned during this project. Using mixins and global styles has improved the maintainability of my code and made it easier to create responsive designs.
+These are just a couple of examples of what I learned during this project. Using mixins and abbreviations has improved the maintainability of my code and made it easier to create responsive designs.
 
 ### Continued development
 
