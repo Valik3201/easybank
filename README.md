@@ -145,6 +145,7 @@ These are just a couple of examples of what I learned during this project. Using
 
 ### Useful resources
 
+- [Figma - Easybank Landing Page](https://www.figma.com/file/Ka1kvlOpOABT5FKT8PFfKl/Easybank-landing-page-(Community)?node-id=4%3A72&mode=dev) - This Figma layout served as an invaluable reference for styling and design decisions during the project. It provided a clear visual guide and greatly facilitated the styling process, helping me achieve the desired look and feel.
 - [How to Make a Landing Page using HTML, SCSS, and JavaScript](https://www.youtube.com/watch?v=aoQ6S1a32j8) - A comprehensive video course on creating a landing page with HTML, SCSS, and JavaScript. This course was incredibly helpful in deepening my understanding of web development and served as a valuable reference throughout this project. 
 
 ## Author
