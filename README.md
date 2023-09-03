@@ -34,7 +34,7 @@ The challenge was to create a responsive landing page for Easybank, ensuring tha
 
 ### Screenshot
 
-![Desktop Preview](/design/desktop-preview.jpg)
+![Preview](/design/preview.jpg)
 
 ## My process
 
