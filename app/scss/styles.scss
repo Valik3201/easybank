@@ -1,16 +1,9 @@
 @import "animations";
 @import "articles";
 @import "feature";
+@import "footer";
 @import "globals";
 @import "header";
 @import "hero";
 @import "mixins";
 @import "variables";
-
-.attribution {
-  font-size: 11px;
-  text-align: center;
-}
-.attribution a {
-  color: hsl(228, 45%, 44%);
-}
