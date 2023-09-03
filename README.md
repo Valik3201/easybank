@@ -135,13 +135,15 @@ This code showcases the use of property abbreviations in class names to simplify
 
 This code snippet demonstrates the implementation of a responsive CSS grid layout. It defines the grid's structure using `grid-template-columns` and `grid-template-rows`, and efficiently organizes content with `grid-template-areas`, resulting in a flexible and maintainable page layout.
 
-```scss 
-display: grid;
-grid-template-columns: 2fr 1fr 1fr 3fr;
-grid-template-rows: 1fr auto;
-grid-template-areas:
-  "logo links1 links2 cta"
-  "social links1 links2 copyright";
+```scss
+.container {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 3fr;
+  grid-template-rows: 1fr auto;
+  grid-template-areas:
+    "logo links1 links2 cta"
+    "social links1 links2 copyright";
+}
 ```
 
 These are just a couple of examples of what I learned during this project. Using mixins,  abbreviations, and css grid  has improved the maintainability of my code and made it easier to create responsive designs.
