@@ -1,0 +1,85 @@
+@import "variables";
+@import "mixins";
+
+.feature {
+  background-color: $lightGrayishBlue;
+  text-align: center;
+
+  @include breakpoint-up(medium) {
+    text-align: left;
+  }
+
+  &__intro {
+    margin-bottom: 3.94rem;
+
+    @include breakpoint-up(large) {
+      width: 63%;
+    }
+
+    h2 {
+      font-size: $font-el;
+      font-weight: 300;
+      line-height: 1.15;
+      color: $darkBlue;
+
+      margin-bottom: 2.27rem;
+
+      @include breakpoint-up(large) {
+        font-size: $font-ul;
+      }
+    }
+
+    p {
+      font-size: $font-sm;
+
+      @include breakpoint-up(large) {
+        font-size: $font-md;
+      }
+    }
+  }
+
+  &__grid {
+    @include breakpoint-up(medium) {
+      display: flex;
+      flex-wrap: wrap;
+    }
+  }
+
+  &__item li {
+    padding: 0.94rem;
+
+    @include breakpoint-up(medium) {
+      flex: 0 0 50%;
+    }
+
+    @include breakpoint-up(large) {
+      flex: 1;
+    }
+  }
+
+  &__icon {
+    margin-bottom: 2.07rem;
+
+    @include breakpoint-up(large) {
+      margin-bottom: 3.02rem;
+    }
+  }
+
+  &__title h3 {
+    font-size: $font-m-lg;
+    font-weight: 300;
+    line-height: 1.15;
+    color: $darkBlue;
+    margin-bottom: 1.52rem;
+
+    @include breakpoint-up(large) {
+      font-size: $font-lg;
+      margin-bottom: 2.25rem;
+    }
+  }
+
+  &__description p {
+    font-size: $font-sm;
+    line-height: 1.5;
+  }
+}

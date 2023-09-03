@@ -38,6 +38,88 @@
   animation: fade-out 300ms ease-in-out forwards;
 }
 
+.feature {
+  background-color: hsl(220, 16%, 96%);
+  text-align: center;
+}
+@media (min-width: 40em) {
+  .feature {
+    text-align: left;
+  }
+}
+.feature__intro {
+  margin-bottom: 3.94rem;
+}
+@media (min-width: 64em) {
+  .feature__intro {
+    width: 63%;
+  }
+}
+.feature__intro h2 {
+  font-size: 1.875rem;
+  font-weight: 300;
+  line-height: 1.15;
+  color: hsl(233, 26%, 24%);
+  margin-bottom: 2.27rem;
+}
+@media (min-width: 64em) {
+  .feature__intro h2 {
+    font-size: 2.25rem;
+  }
+}
+.feature__intro p {
+  font-size: 0.875rem;
+}
+@media (min-width: 64em) {
+  .feature__intro p {
+    font-size: 1.125rem;
+  }
+}
+@media (min-width: 40em) {
+  .feature__grid {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+.feature__item li {
+  padding: 0.94rem;
+}
+@media (min-width: 40em) {
+  .feature__item li {
+    flex: 0 0 50%;
+  }
+}
+@media (min-width: 64em) {
+  .feature__item li {
+    flex: 1;
+  }
+}
+.feature__icon {
+  margin-bottom: 2.07rem;
+}
+@media (min-width: 64em) {
+  .feature__icon {
+    margin-bottom: 3.02rem;
+  }
+}
+.feature__title h3 {
+  font-size: 1.25rem;
+  font-weight: 300;
+  line-height: 1.15;
+  color: hsl(233, 26%, 24%);
+  margin-bottom: 1.52rem;
+}
+@media (min-width: 64em) {
+  .feature__title h3 {
+    font-size: 1.5rem;
+    margin-bottom: 2.25rem;
+  }
+}
+.feature__description p {
+  font-size: 0.875rem;
+  line-height: 1.5;
+}
+
 html {
   font-size: 100%;
   box-sizing: border-box;
@@ -68,12 +150,6 @@ body.noscroll {
   overflow: hidden;
 }
 
-h1,
-h2,
-h3 {
-  margin-top: 0;
-}
-
 a,
 a:visited,
 a:hover {
@@ -82,9 +158,20 @@ a:hover {
 }
 
 ul {
+  list-style: none;
+}
+
+ul,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+div {
   margin: 0;
   padding: 0;
-  list-style: none;
 }
 
 .container {
@@ -97,9 +184,21 @@ ul {
   padding-bottom: 2.25rem;
   padding-left: 1.5rem;
 }
+@media (min-width: 64em) {
+  .container--pall {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+  }
+}
 .container--py {
   padding-top: 2.25rem;
   padding-bottom: 2.25rem;
+}
+@media (min-width: 64em) {
+  .container--py {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+  }
 }
 .container--px {
   padding-right: 1.5rem;
@@ -108,11 +207,21 @@ ul {
 .container--pt {
   padding-top: 2.25rem;
 }
+@media (min-width: 64em) {
+  .container--pt {
+    padding-top: 6rem;
+  }
+}
 .container--pr {
   padding-right: 1.5rem;
 }
 .container--pb {
   padding-bottom: 2.25rem;
+}
+@media (min-width: 64em) {
+  .container--pb {
+    padding-bottom: 6rem;
+  }
 }
 .container--pl {
   padding-left: 1.5rem;
