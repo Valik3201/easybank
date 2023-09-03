@@ -1,0 +1,87 @@
+@import "variables";
+@import "mixins";
+
+.articles {
+  background-color: $veryLightGray;
+
+  h2 {
+    color: $darkBlue;
+    font-size: $font-el;
+    font-weight: 300;
+    margin-bottom: 1.52rem;
+
+    @include breakpoint-up(large) {
+      font-size: $font-ul;
+      margin-bottom: 2.27rem;
+    }
+  }
+}
+
+.article {
+  &__grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.88rem;
+
+    @include breakpoint-up(medium) {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    @include breakpoint-up(large) {
+      grid-template-columns: repeat(4, 1fr);
+    }
+  }
+
+  &__item li {
+    border-radius: 0.3125rem;
+    overflow: hidden;
+    background-color: $white;
+    box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.1);
+    transition: all 150ms ease-in-out;
+
+    &:hover {
+      transform: scale(1.05);
+    }
+  }
+
+  &__image {
+    width: 21.375rem;
+    height: 12.5rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+    @include breakpoint-up(large) {
+      width: 15.1875rem;
+      height: 12.5rem;
+    }
+  }
+
+  &__text {
+    padding: 1.875rem 1.875rem 2.5rem 1.875rem;
+    color: $grayishBlue;
+
+    @include breakpoint-up(medium) {
+      padding: 1.875rem 1.5625rem;
+    }
+  }
+
+  &__author h5 {
+    font-size: 0.625rem;
+    font-weight: 300;
+    margin-bottom: 0.81rem;
+  }
+
+  &__title h4 {
+    color: $darkBlue;
+    font-size: 1.0635rem;
+    font-weight: 300;
+    line-height: 1.2; /* 120% */
+    margin-bottom: 0.53rem;
+  }
+
+  &__description p {
+    font-size: 0.8125rem;
+    font-weight: 300;
+  }
+}
