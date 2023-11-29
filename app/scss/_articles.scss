@@ -66,13 +66,13 @@
     }
   }
 
-  &__author h4 {
+  &__author p:first-child {
     font-size: 0.625rem;
     font-weight: 300;
     margin-bottom: 0.81rem;
   }
 
-  &__title h5 {
+  &__title h4 {
     color: $darkBlue;
     font-size: 1.0635rem;
     font-weight: 300;
@@ -80,7 +80,7 @@
     margin-bottom: 0.53rem;
   }
 
-  &__description p {
+  &__description p:last-child {
     font-size: 0.8125rem;
     font-weight: 300;
   }
