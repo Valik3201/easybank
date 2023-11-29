@@ -101,12 +101,12 @@
     padding: 1.875rem 1.5625rem;
   }
 }
-.article__author h5 {
+.article__author h4 {
   font-size: 0.625rem;
   font-weight: 300;
   margin-bottom: 0.81rem;
 }
-.article__title h4 {
+.article__title h5 {
   color: hsl(233, 26%, 24%);
   font-size: 1.0635rem;
   font-weight: 300;
